@@ -27,3 +27,5 @@ benchmarks/graphs
 # Jetbrains
 .idea/
 *.iml
+
+config.json
