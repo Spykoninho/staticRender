@@ -1,17 +1,21 @@
-# ESGI - Cloud course - Render Node.js app
+# ESGI - Cloud course - Render static app
 
 To do this exercise, you must read carefully the given documentations and rules.
 
 ## Rules
 
-- Deploy this Node.js application to Render:
-    - Create your service on Render in the Europe region
-    - Deploy your project to an online Git repository
-    - Link your service to your Git repository
-    - Configure properly the service to retrieve dependencies and start your project
+- Deploy this static application to Render:
+    - All assets (including images, styles, scripts, ...) must be accessible properly
+    - The error page `error/index.html` must be used as 404 default error page
+    - The route '/esgi' must serve the app main page
+    - The route '/photo' must temporary redirect to a photo already available on a website of your choice
 
 ## Resources
 
 - Documentation:
-    - https://render.com/docs/web-services
-    - https://render.com/docs/deploy-node-express-app
+    - https://render.com/docs/static-sites
+    - https://render.com/docs/redirects-rewrites
+
+## Credits
+
+Base project: https://github.com/cloudacademy/static-website-example
